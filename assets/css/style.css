@@ -1,0 +1,152 @@
+:root {
+
+    --amazon-card-color: white;
+
+    --card-text-color:black;
+}
+
+
+
+
+/* astrex */
+* {
+
+    font-family: sans-serif;
+
+}
+
+body {
+
+    background-color: #007185;
+
+}
+
+
+/* amazon_card_box */
+.amazon_card_box {
+
+    max-width: 1440px;
+    height: auto;
+}
+
+
+/* amazon_card_box */
+.amazon_card_box {
+
+    max-width: auto;
+    box-sizing: border-box;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
+    padding: 20px;
+
+}
+
+/* amazon_cards */
+.amazon_cards {
+
+    max-width: 400px;
+    height: 70px;
+    border-radius: 5px;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    background-color: var(--amazon-card-color);
+    cursor: pointer;
+    gap: 10px;
+    margin-bottom:20px ;
+    
+
+}
+
+img {
+
+    width: 60px;
+    height: 60px;
+}
+
+p {
+
+    font-size: 14px;
+    color: var(--card-text-color);
+}
+
+
+
+@media only screen and (max-width:1199px) {
+
+    /* amazon_card_box */
+    .amazon_card_box {
+
+        max-width: auto;
+        box-sizing: border-box;
+        height: auto;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 100px;
+        gap: 15px;
+        padding: 20px;
+
+    }
+
+    /* amazon_cards */
+    .amazon_cards {
+
+        max-width: 590px;
+        height: 80px;
+        border-radius: 5px;
+        padding: 16px 20px;
+        display: flex;
+        align-items: center;
+        background-color: var(--amazon-card-color);
+        cursor: pointer;
+        gap: 10px;
+
+    }
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:1199px) {
+
+    /* amazon_card_box */
+    .amazon_card_box {
+
+        max-width: auto;
+        box-sizing: border-box;
+        height: auto;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr ;
+        margin-top: 100px;
+        gap: 15px;
+        padding: 20px;
+
+    }
+
+    /* amazon_cards */
+    .amazon_cards {
+
+        max-width: 900px;
+        height: 70px;
+        border-radius: 5px;
+        padding: 16px 20px;
+        display: flex;
+        align-items: center;
+        background-color: var(--amazon-card-color);
+        cursor: pointer;
+        gap: 10px;
+
+    }
+
+
+
+}
